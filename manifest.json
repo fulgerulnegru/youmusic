@@ -1,0 +1,25 @@
+{   
+  "name": "YouMusic",
+  "version": "0.1", 
+  "description": "Make YouTube your music player",
+  "icons": { 
+    "16" : "images/icon.png"
+  }, 
+  "manifest_version": 2,
+  "homepage_url": "",
+
+  "permissions": [
+    "http://youtube.com/*",
+    "http://www.youtube.com/*",
+    "tabs"
+  ], 
+  "content_scripts": [{
+    "matches": ["http://*.youtube.com/*", "https://*.youtube.com/*"],
+    "js": ["jquery.js", "youmusic.js"]
+  }],
+  "homepage_url": "http://netbaiji.com",
+  "browser_action": {
+    "default_icon": "images/icon.jpg",
+    "default_title": "You Music"
+  } 
+} 
