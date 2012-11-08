@@ -19,7 +19,7 @@
   }],
   "homepage_url": "http://netbaiji.com",
   "browser_action": {
-    "default_icon": "images/icon.jpg",
+    "default_icon": "images/icon.png",
     "default_title": "You Music"
   } 
 } 
