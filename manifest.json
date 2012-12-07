@@ -1,6 +1,6 @@
 {   
   "name": "YouMusic",
-  "version": "0.1", 
+  "version": "0.1.2", 
   "description": "Make YouTube your music player",
   "icons": { 
     "16" : "images/icon.png"
